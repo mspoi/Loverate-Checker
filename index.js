@@ -6,6 +6,7 @@ document.querySelector("button").addEventListener("click", function() {
     var firstChar2 = name2.slice(0,1);
     var upperCaseFirstChar1 = firstChar1.toUpperCase();
     var upperCaseFirstChar2 = firstChar2.toUpperCase();
+    var re
 
     if (name1 === "" || name2 === "") {
         alert("Please insert name/names");
