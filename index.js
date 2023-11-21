@@ -6,6 +6,13 @@ document.querySelector("button").addEventListener("click", function() {
         alert("Please insert name/names");
         return;
     }
+    
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+    name1 = capitalizeFirstLetter(name1);
+    name2 = capitalizeFirstLetter(name2);
 
     var lovePercentage = Math.random() * 100;
     lovePercentage = Math.floor(lovePercentage) + 1;
